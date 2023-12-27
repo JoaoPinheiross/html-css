@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        body {
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(202, 147, 76);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            height: 25px;
+            margin-top: 20px;
+            margin-bottom: 100px;
+        }
+
+        nav {
+            background-color: rgb(184, 121, 39);
+            padding: 5px; 
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 25px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(179, 157, 131);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px rgba(107, 95, 79, 0.342);
+        }
+
+        h2 {
+            margin: 5px;
+        }
+        
+        section {
+            background-color: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        aside {
+            font-weight: bold;
+        }
+
+        #assuntos {
+            margin-bottom: 10px
+        }
+
+        #noticias {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: rgb(104, 89, 72);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos mais falados do momento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus accusantium repellendus consequuntur nesciunt veniam asperiores, numquam voluptatum consectetur minima odit dolores doloribus labore saepe possimus qui provident voluptates itaque quae?</p>
+            <aside>
+                <p>Por: Xupaku</p>
+            </aside>
+        </section>
+        <section id="noticias">
+            <h2>Nóticias sobre a Economia do Brasil</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quidem eaque perspiciatis magnam dolores, laboriosam quam, impedit, corrupti qui pariatur nisi tenetur quos libero fuga praesentium cum omnis molestiae incidunt!</p>
+                <aside>
+                    <p>Autor: Joazinho171</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site do mais gênio de todos</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

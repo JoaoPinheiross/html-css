@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font: normal 1em Arial, helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: darkcyan;
+}
+
+h2 {
+    color: cyan;
+}
+
+#titulo-principal {
+    background-color: rgb(2, 109, 109);
+    color: aqua;
+    text-align: center;
+}
+
+.basico {
+    color: green;
+}
+
+.medio {
+    color: blue;
+}
+
+.avançado {
+    color: red;
+}
+
+.texto {
+    text-align: justify;
+}
