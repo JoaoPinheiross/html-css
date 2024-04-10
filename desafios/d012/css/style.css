@@ -10,7 +10,7 @@
 
 * {
     margin: 0;
-    padding 0;
+    padding: 0;
 }
 
 body {
@@ -25,19 +25,22 @@ header {
 }
 
 header h1 {
-    padding: 20px 0 25px 0;
+    padding: 50px 0 5px 0;
 
     font-family: var(--font2);
     font-size: 10vw;
 }
 
 header p {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
+
+    font-size: 1.1em;
 }
 
 header a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section p {
@@ -56,7 +59,27 @@ section p {
 
     padding: 25px;
 }
+
 #imagem1 p {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 350px;
+
+    margin: 25px;
+
+    color: #fff;
+}
+
+#imagem2 {
+    background-image: url('../img/background002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+
+    padding: 25px;
+}
+
+#imagem2 p {
     background-color: rgb(0, 0, 0, 0.5);
     width: 350px;
 
