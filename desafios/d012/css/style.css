@@ -37,10 +37,21 @@ header p {
     font-size: 1.1em;
 }
 
-header a {
+header a, footer a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    line-height: 4em;
 }
 
 section p {
@@ -50,40 +61,28 @@ section p {
     font-size: 2em;
 }
 
-#imagem1 {
+section.imagem {
     background-image: url('../img/background001.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
-
-    padding: 25px;
 }
 
-#imagem1 p {
+section.imagem p {
+    display: inline-block;
     background-color: rgb(0, 0, 0, 0.5);
-    width: 350px;
 
-    margin: 25px;
+    margin: 25px 0 25px 50px;
+    padding: 20px;
 
     color: #fff;
 }
 
-#imagem2 {
-    background-image: url('../img/background002.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-attachment: fixed;
-
-    padding: 25px;
-}
-
-#imagem2 p {
-    background-color: rgb(0, 0, 0, 0.5);
-    width: 350px;
-
-    margin: 25px;
+footer {
+    background-color: #000;
+    padding: 10px;
 
     color: #fff;
+    text-align: center;
 }
