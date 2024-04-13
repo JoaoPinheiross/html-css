@@ -64,11 +64,11 @@ section p {
 }
 
 section.imagem {
-    background-image: url('../img/background001.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right center;
     background-attachment: fixed;
+
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.514)
 }
 
 section.imagem p {
@@ -79,6 +79,15 @@ section.imagem p {
     padding: 20px;
 
     color: #fff;
+}
+
+section#img1 {
+    background-image: url('../img/background001.jpg');
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url('../img/background002.jpg');
 }
 
 footer {
